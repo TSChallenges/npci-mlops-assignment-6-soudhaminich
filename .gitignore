@@ -1,0 +1,37 @@
+# Ignore data files (except raw CSV)
+data/processed_data.csv
+data/*.pkl
+
+# Ignore models
+models/*.pkl
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Codespaces settings
+.vscode/
+.devcontainer/
+
+# Ignore dependencies installed by pip
+*.egg-info/
+*.dist-info/
+pip-wheel-metadata/
+
+# Ignore pytest cache
+.pytest_cache/
